@@ -1,8 +1,0 @@
-#!/usr/bin/env python
-
-
-print("hello, gushi!\r\n")
-
-for i in range(10): print(i)
-
-print("bye, gushi!\r\n")
