@@ -1,6 +1,12 @@
 # Blog
 
-Programming Language Order
+##Programming Language Order
+
+
+C => Java => Python => C++ => C#
+
+
+##Software Architecture
 
 
 
