@@ -17,11 +17,4 @@ C => Java => Python => C++ => C#
 
 - gushi
 
-(```)
-    function fun(){
-         echo "这是一句非常牛逼的代码";
-    }
-    fun();
-(```)
-
 https://algorithm-visualizer.org/
