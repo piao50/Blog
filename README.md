@@ -9,12 +9,12 @@ C => Java => Python => C++ => C#
 
 
 
-- 1. c/c++ daily practise
+- c/c++ daily practise
 
-- 2. python daily practise
+- python daily practise
 
-- 3. architecture improvement
+- architecture improvement
 
-- 4. 
+-  
 
 https://algorithm-visualizer.org/
