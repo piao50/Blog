@@ -24,4 +24,10 @@ C => Java => Python => C++ => C#
 ## 123
 
 
+## Product Manager
+### Customer
+### Developer
+### Leader 
+
+
 https://algorithm-visualizer.org/
