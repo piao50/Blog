@@ -2,11 +2,9 @@
 
 ## Programming Language Order
 
-
 C => Java => Python => C++ => C#
 
 ## Software Architecture
-
 
 
 - c/c++ daily practise
@@ -16,5 +14,8 @@ C => Java => Python => C++ => C#
 - architecture improvement
 
 - gushi
+
+## Children Study 
+
 
 https://algorithm-visualizer.org/
