@@ -5,7 +5,7 @@
 C => Java => Python => C++ => C#
 
 ## Software Architecture
-
+ss
 
 - c/c++ daily practise
 
@@ -21,7 +21,20 @@ C => Java => Python => C++ => C#
 ## OK
 
 
-## 123
+## Something for Python
+Numpy -> Scipy -> Matplotlib -> Pandas
+
+Python for Data-science
+
+Python for Machine-learning
+
+
+## Web Foreground Development
+
+
+
+## Web Background Development
+
 
 
 ## Product Manager
