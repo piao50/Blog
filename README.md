@@ -5,7 +5,9 @@
 C => Java => Python => C++ => C#
 
 ## Software Architecture
-ss
+the same architecture with difference langauge to implement
+
+Language Theory => Case Study => Compare Study => Architecture Implement
 
 - c/c++ daily practise
 
