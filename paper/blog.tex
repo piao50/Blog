@@ -1,0 +1,41 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx}
+
+\graphicspath{{figures/}}
+\begin{document}
+
+
+% 章节内容如下
+
+% 插图原代码，优先使用内置的latex语法，其次使用inkspace生成的svg->eps图片
+
+
+\section{Welcome}
+
+使用Latex写技术相关书籍。
+
+\section{Figures here}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{hello.eps}
+\caption{title}
+\end{figure}
+
+\include{data/chap01}
+
+\section{中文}
+
+\section{Figures here}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{bye.eps}
+\caption{title}
+\end{figure}
+\section{Bye}
+
+\renewcommand\refname{}
+\nocite{*}
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,REFS}
+\end{document}
