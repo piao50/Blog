@@ -5,6 +5,13 @@
 \graphicspath{{figures/}}
 \begin{document}
 
+% \setcounter{page}{0}
+% \thispagestyle{empty}
+% \tableofcontents
+% \setcounter{page}{0}
+% \thispagestyle{empty}
+% \newpage
+% \setcounter{page}{1}
 
 % 章节内容如下
 
@@ -15,14 +22,16 @@
 
 使用Latex写技术相关书籍。
 
+\include{data/chap01}
+
+\include{data/chap02}
+
 \section{Figures here}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{hello.eps}
 \caption{title}
 \end{figure}
-
-\include{data/chap01}
 
 \section{中文}
 
@@ -32,6 +41,7 @@
 \includegraphics[width=\textwidth]{bye.eps}
 \caption{title}
 \end{figure}
+
 \section{Bye}
 
 \renewcommand\refname{}
