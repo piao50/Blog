@@ -1,5 +1,13 @@
 #include <iostream>
+#include "hello.h"
 using namespace std;
+
+Widget::Widget(){}
+
+void Widget::hello()
+{
+  cout << "hello from Widget ..." << endl;
+}
 
 int addition(int a, int b)
 {
@@ -60,6 +68,10 @@ int main()
   int z;
   z = addition(5, 3);
   cout << "The result of addtion(5,3) is " << z << endl;
+
+  Widget *w = new Widget();
+  w->hello();
+  delete w;
   
   std::cout << "bye, gushi!" << std::endl;
   return 0;
