@@ -6,6 +6,9 @@ class Widget{
   Widget();
   Widget(Widget&& rhs);
   void hello();
+
+  template<typename T>
+    void f(const T& param);
 };
 
 #endif
