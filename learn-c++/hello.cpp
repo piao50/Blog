@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "hello.h"
 using namespace std;
 
@@ -47,6 +48,14 @@ int main()
     cout << "x is 0";
   cout << endl;
 
+  int sum = 0, val = 1;
+  while(val <= 10){
+    sum += val;
+    ++val;
+  }
+  std::cout << "Sum of 1 to 10 inclusive is "
+	    << sum << std::endl;
+
   int cnt = 10;
   while(cnt-->0) cout << cnt << ",";
   cout << endl;
@@ -72,6 +81,13 @@ int main()
   Widget *w = new Widget();
   w->hello();
   delete w;
+
+  vector<int> v;
+  for(int i = 0; i < 10; i++)
+    v.push_back(i);
+  for(int i = 0; i < v.size(); i++)
+    cout << " (" << i << ") ";
+  cout << endl;
   
   std::cout << "bye, gushi!" << std::endl;
   return 0;
