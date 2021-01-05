@@ -88,6 +88,7 @@ int main()
   for(int i = 0; i < v.size(); i++)
     cout << " (" << i << ") ";
   cout << endl;
+  for (auto &i : v) i *= i;
   for (auto i : v) cout << i << " ";
   cout << endl;
   
