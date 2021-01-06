@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 console.log('hello, gushi');
 
 function f(a, b) { return a * b; }
