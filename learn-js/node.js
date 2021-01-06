@@ -33,6 +33,7 @@ y = y.concat(" from China");
 console.log(y);
 
 {
-    let x = 10;
+    let x = 101;
     console.log(x);
 }
+console.log(x);
