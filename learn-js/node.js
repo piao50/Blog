@@ -31,3 +31,8 @@ console.log(pos1);
 console.log(y.substr(pos, 6));
 y = y.concat(" from China");
 console.log(y);
+
+{
+    let x = 10;
+    console.log(x);
+}
