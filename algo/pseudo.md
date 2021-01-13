@@ -9,4 +9,5 @@ for j = 2 to A.length
 	  i = i - 1
     A[i+1] = key
 
-ok;
+# 
+
