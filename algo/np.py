@@ -48,6 +48,6 @@ plt.hist(v, bins=50, density=1)
 (n, bins) = np.histogram(v, bins=50, density=True)
 #plt.clear()
 plt.plot(.5*(bins[1:]+bins[:-1]),n)
-plt.savefig('hist.jpg')
+plt.savefig('hist1.jpg')
 
 print('bye, gushi')
