@@ -47,6 +47,6 @@ v = rg.normal(mu, sigma, 10000)
 plt.hist(v, bins=50, density=1)
 (n, bins) = np.histogram(v, bins=50, density=True)
 plt.plot(.5*(bins[1:]+bins[:-1]),n)
-plt.savefig('hist.jgp')
+plt.savefig('hist.jpg')
 
 print('bye, gushi')
