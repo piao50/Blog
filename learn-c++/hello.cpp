@@ -1,3 +1,4 @@
+// g++ hello.cpp -o hello
 #include <iostream>
 #include <vector>
 #include "hello.h"
@@ -91,6 +92,14 @@ int main()
   for (auto &i : v) i *= i;
   for (auto i : v) cout << i << " ";
   cout << endl;
+
+  int i = sum = 0;
+  int n = 10;
+  for(i = sum = 0; i < n; i++)
+    sum += i;
+  printf("sum = %d\r\n", sum);
+
+  printf("the best, average, worst case\r\n");
   
   std::cout << "bye, gushi!" << std::endl;
   return 0;
