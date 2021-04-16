@@ -1,0 +1,1 @@
+cmd_/home/gushi/git/Blog/learn-c/m.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/gushi/git/Blog/learn-c/m.ko /home/gushi/git/Blog/learn-c/m.o /home/gushi/git/Blog/learn-c/m.mod.o;  true
