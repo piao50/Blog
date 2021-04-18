@@ -33,6 +33,8 @@ class BlogSpider(scrapy.Spider):
             cnt = cnt + 1
             if (cnt > 100) :
                 break
+            import time
+            time.sleep(1)
             yield response.follow(self.start_urls[0] + c.extract(), self.parse_s)
             
 #                 
